@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 279bbab51a3a49e41997862216aa9975, type: 3}
+  m_Name: Circle Twirl
+  m_EditorClassIdentifier: 
+  abilityType: 2
+  image: {fileID: 21300000, guid: 3b2e16fd298bdb94083af2a1c7e6b2b8, type: 3}
+  abilityDescription: Spin in a circle and deal damage multiple times to all enemies
+    that come in contact with your tongue.
+  unlocked: 0
+  abilityLevel:
+  - statLevel: 0
+    statDescription: Base Spinning Amounts and Damages.
+    abilityStatList: []
+    price: 0
+    purchased: 1
+  - statLevel: 1
+    statDescription: Increase Spinning Amount by 1 and Damages by 10%.
+    abilityStatList:
+    - modifyType: 2
+      modifyValue: 1
+    - modifyType: 0
+      modifyValue: 10
+    price: 0
+    purchased: 0
+  - statLevel: 2
+    statDescription: Increase Spinning Amount by 3  and Damages by 28%.
+    abilityStatList:
+    - modifyType: 2
+      modifyValue: 2
+    - modifyType: 0
+      modifyValue: 18
+    price: 0
+    purchased: 0
+  - statLevel: 3
+    statDescription: Increase Spinning Amount by 5 and Damages by 50%.
+    abilityStatList:
+    - modifyType: 2
+      modifyValue: 2
+    - modifyType: 0
+      modifyValue: 22
+    price: 0
+    purchased: 0

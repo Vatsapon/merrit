@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd078f7062b1c3f4c83da98ccd20f827, type: 3}
+  m_Name: Soulfly's Lantern
+  m_EditorClassIdentifier: 
+  itemName: Soulfly's Lantern
+  itemRarity: 2
+  rarityColor: {r: 0.6864768, g: 0.4481132, b: 1, a: 1}
+  itemDescription: Increase Damages by 1% per Soul Coin.
+  image: {fileID: 21300000, guid: d9dc8e66e577c38418cc70b602649b9d, type: 3}
+  itemPrice: 0
+  passives:
+  - statName: Damage
+    passiveType: 6
+    modifyValue: 1
+    modifyChance: 100
+  upgradeLevel:
+  - statLevel: 1
+    statModify: 0.5
+    price: 0
+    unlocked: 1
+    purchased: 0
+  - statLevel: 2
+    statModify: 0.5
+    price: 0
+    unlocked: 1
+    purchased: 0
+  - statLevel: 3
+    statModify: 1
+    price: 0
+    unlocked: 1
+    purchased: 0

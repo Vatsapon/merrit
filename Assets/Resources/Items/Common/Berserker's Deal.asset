@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd078f7062b1c3f4c83da98ccd20f827, type: 3}
+  m_Name: Berserker's Deal
+  m_EditorClassIdentifier: 
+  itemName: Berserker's Seal
+  itemRarity: 0
+  rarityColor: {r: 0.4575472, g: 1, b: 0.46681994, a: 1}
+  itemDescription: Increase 5 Strengths, but decrease 3 Physical Armors.
+  image: {fileID: 21300000, guid: dca4ac3c80bbcf146b93235c23cefe68, type: 3}
+  itemPrice: 0
+  passives:
+  - statName: Strength
+    passiveType: 4
+    modifyValue: 5
+    modifyChance: 100
+  - statName: Physical Armor
+    passiveType: 7
+    modifyValue: -3
+    modifyChance: 100
+  upgradeLevel: []

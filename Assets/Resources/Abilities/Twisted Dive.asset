@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 279bbab51a3a49e41997862216aa9975, type: 3}
+  m_Name: Twisted Dive
+  m_EditorClassIdentifier: 
+  abilityType: 1
+  image: {fileID: 21300000, guid: a0aae166b0d255d4f91b7e44a02eff20, type: 3}
+  abilityDescription: Dive down all the way to the ground, and damaging everything
+    within the radius.
+  unlocked: 0
+  abilityLevel:
+  - statLevel: 0
+    statDescription: Base Ranges and Damages.
+    abilityStatList: []
+    price: 0
+    purchased: 1
+  - statLevel: 1
+    statDescription: Increase Ranges by 10% and Damages by 30%.
+    abilityStatList:
+    - modifyType: 1
+      modifyValue: 10
+    - modifyType: 0
+      modifyValue: 30
+    price: 0
+    purchased: 0
+  - statLevel: 2
+    statDescription: Increase Ranges by 25% and Damages by 70%.
+    abilityStatList:
+    - modifyType: 1
+      modifyValue: 15
+    - modifyType: 0
+      modifyValue: 40
+    price: 0
+    purchased: 0
+  - statLevel: 3
+    statDescription: Increase Ranges by 50% and Damages by 130%.
+    abilityStatList:
+    - modifyType: 1
+      modifyValue: 25
+    - modifyType: 0
+      modifyValue: 60
+    price: 0
+    purchased: 0

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Enemy
+  - Bullet
+  - AttackArea
+  - Debug
+  - NPC
+  - EnemyProjectiles
+  - Dungeon
+  - Teleport
+  - Turret
+  - Trap
+  - StickyVine
+  - FragileGround
+  - GorgoEgg
+  - Decoration
+  - Prop
+  - CheckPoint
+  - Boss
+  - Missile
+  - Teleport Cam
+  - Normal Cam
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Bullet
+  - Enemy
+  - Ground
+  - Minimap
+  - Item
+  - FragileGround
+  - Level Elements
+  - Room Outline
+  - FogOfWar
+  - MinimapIcon
+  - Foreground
+  - FlyingCube
+  - BossShrine
+  - BossProjectile
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Debug
+    uniqueID: 673954927
+    locked: 0

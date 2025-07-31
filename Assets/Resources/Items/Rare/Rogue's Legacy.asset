@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd078f7062b1c3f4c83da98ccd20f827, type: 3}
+  m_Name: Rogue's Legacy
+  m_EditorClassIdentifier: 
+  itemName: Rogue's Legacy
+  itemRarity: 1
+  rarityColor: {r: 0.3537736, g: 0.66591376, b: 1, a: 1}
+  itemDescription: Deal +60% damages to enemy with 90% of healths or more.
+  image: {fileID: 21300000, guid: 31a850afcecd64945b940f8a8252f771, type: 3}
+  itemPrice: 0
+  passives:
+  - statName: Damage
+    passiveType: 6
+    modifyValue: 60
+    modifyChance: 100
+  - statName: Enemy Health
+    passiveType: 18
+    modifyValue: 90
+    modifyChance: 100
+  upgradeLevel:
+  - statLevel: 1
+    statModify: 6
+    price: 0
+    unlocked: 1
+    purchased: 0
+  - statLevel: 2
+    statModify: 9
+    price: 0
+    unlocked: 1
+    purchased: 0
+  - statLevel: 3
+    statModify: 15
+    price: 0
+    unlocked: 1
+    purchased: 0

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 279bbab51a3a49e41997862216aa9975, type: 3}
+  m_Name: Spirit's Calling
+  m_EditorClassIdentifier: 
+  abilityType: 5
+  image: {fileID: 21300000, guid: ec5a70958b0b51d49b2951c97c4d8528, type: 3}
+  abilityDescription: Dashes towards the aim direction while having a barrier that
+    inflicts damage onto enemies and deflects back any projectile that you pass through.
+  unlocked: 0
+  abilityLevel:
+  - statLevel: 0
+    statDescription: Base Deflected damages and Shield Time.
+    abilityStatList: []
+    price: 0
+    purchased: 1
+  - statLevel: 1
+    statDescription: Increase Deflected damages by 50%.
+    abilityStatList:
+    - modifyType: 0
+      modifyValue: 50
+    - modifyType: 3
+      modifyValue: 0
+    price: 0
+    purchased: 0
+  - statLevel: 2
+    statDescription: Increase Deflected damages by 120% and Shield Time by 0.5 second.
+    abilityStatList:
+    - modifyType: 0
+      modifyValue: 70
+    - modifyType: 3
+      modifyValue: 0.5
+    price: 0
+    purchased: 0
+  - statLevel: 3
+    statDescription: After using Spirit's Calling, Spiritual's Resonance can be active
+      instantly without charging and deal +150% damages, but you will lose all mana.
+    abilityStatList:
+    - modifyType: 0
+      modifyValue: 150
+    price: 0
+    purchased: 0

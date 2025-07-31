@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8852098585263344251
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8852098585263344249}
+  - component: {fileID: 8852098585263344250}
+  - component: {fileID: 845400845791600514}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8852098585263344249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8852098585263344251}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8852098585263344250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8852098585263344251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f1e8c9c46462fc44b6535c2013098d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gold: 0
+  explorationCoin: 0
+  explorationBarAmount: 0
+  exploreationBarIncrementAmount: 0
+  numTeleporter: 0
+  currentActivatedTeleporter: 0
+  soulCoin: 0
+  unlockedTeleport: []
+  fogOfWarCamera: {fileID: 0}
+--- !u!114 &845400845791600514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8852098585263344251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62ca7088088ff2d4eb0f835f30b6a127, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particles:
+    physicalAttackHit1: {fileID: 3464119728554159808, guid: ec59728d44ef4b04cb8bb9ab25f707a2, type: 3}
+    physicalAttackHit2: {fileID: 2439547314104909991, guid: eed7de1e15a3b684cb0e6b217e833c1a, type: 3}
+    physicalAttackHit3: {fileID: 7684659140958857005, guid: 1883bc41cfe31da44ba88b8c1df686ef, type: 3}
+    physicalAttackHitUp: {fileID: 6863972615345353998, guid: acbc4c43cb84ad14099c8dbd4258e8c8, type: 3}
+    physicalDashAttack: {fileID: 1213770533758369667, guid: 29d54f8815b9a0140a67b11984235d68, type: 3}
+    spiritualAttack: {fileID: 4558580327301750188, guid: 3ae6065146e6ca346a6673800473d6c1, type: 3}
+    spiritualBulletHitEnemy: {fileID: 5229591493483964649, guid: 62ac69d416db4b4498159604139499bf, type: 3}
+    spiritualBullet1: {fileID: 6085940717366396739, guid: 6c6ff48cb7a7f5d4593e52d40b9008c6, type: 3}
+    spiritualBullet1Hit: {fileID: 6085940717366396739, guid: 84456f36a5fc90e43b40d1b66f9c739a, type: 3}
+    spiritualBullet2: {fileID: 6085940717366396739, guid: 35d4eeae03cd04c4eb00bd5ac60a06b9, type: 3}
+    spiritualBullet2Hit: {fileID: 6085940717366396739, guid: 49087f4e551bd2345894486564ef930a, type: 3}
+    spiritualBullet3: {fileID: 6085940717366396739, guid: 88b3e5db0d5c91849b6ea60c335ac579, type: 3}
+    spiritualBullet3Hit: {fileID: 6085940717366396739, guid: 81e6cb305cc8d1740bde616d5bbb731a, type: 3}
+    spiritualBullet3Back: {fileID: 6085940717366396739, guid: 7098eec3582630549a92abd0b2b60e13, type: 3}
+    spiritualBullet3BackHit: {fileID: 6085940717366396739, guid: 3f2999f96046656459ef19ee918e2741, type: 3}
+    bloodSplashEnemy1: {fileID: 3599427726562046272, guid: ebe86afd68659db41a7b56fdbc3e21a7, type: 3}
+    bloodSplashEnemy2: {fileID: 4798008779327276890, guid: 8ce9467786cd03746ac70b4d1358a46e, type: 3}
+    bloodSplashEnemy3: {fileID: 2509673427793610207, guid: bca6147f4bee03440af58a4c9860c6e8, type: 3}
+    bloodSplashEnemyUp: {fileID: 1511045362219109121, guid: 566f167ea1f983548a968a950b35d6cf, type: 3}
+    bloodSplashEnemyDeath: {fileID: 6166485805920563238, guid: 687ba0bf25fbb2f4bb10510550f3c575, type: 3}
+    bloodSplashEnemyFluid: {fileID: 7963766825725784841, guid: cfaa432b1cd60d246a5e0eba0c282341, type: 3}
+    spiritualResonanceCharging: {fileID: 3919166057082356514, guid: 37827052cfc1c724c9df63a3a1005614, type: 3}
+    spiritualResonanceInnerExplosion: {fileID: 6722833318327033772, guid: c7cb6d51eb71afd45b1544902e796023, type: 3}
+    spiritualResonanceOuterExplosion: {fileID: 1412851151047275277, guid: ed2d106b26585184f96b1857a1d6637c, type: 3}
+    spiritCallingShield: {fileID: 2096249231418729861, guid: 1422223822b6aa749a991455b6b5fad5, type: 3}
+    twistedDiveCharging: {fileID: 6516406805573750430, guid: f454c56774ddecf4793fada1482da569, type: 3}
+    twistedDiveInnerImpact: {fileID: 2103722548441467838, guid: c3eafc868af52714ebf6eb9f2b91f4c9, type: 3}
+    twistedDiveOuterImpact: {fileID: 8138949825607999228, guid: d70f22876df87264ab288c3cc4cfeaab, type: 3}
+    circleTwirlGroundArea: {fileID: 5953479447670276220, guid: c625a57f0069e6a4dba9054f55fd9161, type: 3}
+    playerDashTrail: {fileID: 6046889160452094680, guid: 2088538e9bd431144aee7be39f02122f, type: 3}
+    playerTransformation: {fileID: 8884218815675103038, guid: 5941417a1351f634f901c4dbe10ccb95, type: 3}
+    environmentHit: {fileID: 2488487268387638908, guid: 2efe3785eed94fc4b9ac71b7170f7fc3, type: 3}
+    fragilePlatformBroke: {fileID: 8679137690937101365, guid: c58fb73e9833c9c48b634f973aa9242e, type: 3}
+    stunEffect: {fileID: 944175748407462344, guid: 6abb7ac6cc2c42b4881d56d798317a02, type: 3}
+    burstEffect: {fileID: 8658148196364436711, guid: 36d37f8ef0e86144e9970eb1ee221ec7, type: 3}
+    manaIncreaseEffect: {fileID: 105942, guid: ff672eaca96d32c419d7a1f1b0346e8d, type: 3}
+    projectileExplosion: {fileID: 426868100101610165, guid: da39e0dabbb8ecc46b58abce17ab0417, type: 3}
+    protectionShield: {fileID: 3056240104023506590, guid: 560dd5ddea5419e46b25203d3a78f200, type: 3}
+    stompEffect: {fileID: 6265035312431179992, guid: 5d74ea5485a7994428311ca7b1bc1abf, type: 3}
+    bossPortalEffect: {fileID: 7329515012559726571, guid: f04a7ef714028bb41b4a3ca9c75b5d89, type: 3}
+  prefabs:
+    damageIndicator: {fileID: 4138568058913704006, guid: 2d2ea68e03b103e449fad1e3eed1b8e7, type: 3}
+    soulItem: {fileID: 483449806906507637, guid: b3087b90bbcbeb040a01298e64298395, type: 3}
+    goldCoinItem: {fileID: 917585193008910621, guid: f4b662d15043d8945b4130fd17885513, type: 3}
+    normalCursor: {fileID: 2800000, guid: c435ce48448ef8b48ad7ee1c0dd68585, type: 3}
+    aimCursor: {fileID: 2800000, guid: 310afee26393d14458c695a75e5195d1, type: 3}

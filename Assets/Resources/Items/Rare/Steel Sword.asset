@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd078f7062b1c3f4c83da98ccd20f827, type: 3}
+  m_Name: Steel Sword
+  m_EditorClassIdentifier: 
+  itemName: Steel Sword
+  itemRarity: 1
+  rarityColor: {r: 0.3537736, g: 0.66591376, b: 1, a: 1}
+  itemDescription: Increase 5 Strengths.
+  image: {fileID: 21300000, guid: 7ffc837c3c0edb54eae32374ca7bee3d, type: 3}
+  itemPrice: 0
+  passives:
+  - statName: Strength
+    passiveType: 4
+    modifyValue: 5
+    modifyChance: 100
+  upgradeLevel:
+  - statLevel: 1
+    statModify: 2
+    price: 0
+    unlocked: 1
+    purchased: 0
+  - statLevel: 2
+    statModify: 3
+    price: 0
+    unlocked: 1
+    purchased: 0
+  - statLevel: 3
+    statModify: 5
+    price: 0
+    unlocked: 1
+    purchased: 0

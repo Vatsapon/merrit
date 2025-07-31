@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd078f7062b1c3f4c83da98ccd20f827, type: 3}
+  m_Name: Cloth Armor
+  m_EditorClassIdentifier: 
+  itemName: Cloth Armor
+  itemRarity: 0
+  rarityColor: {r: 0.4575472, g: 1, b: 0.46681994, a: 1}
+  itemDescription: Increase 10 Health points.
+  image: {fileID: 21300000, guid: e94ceaf89894ca6469d92ab907c380bd, type: 3}
+  itemPrice: 0
+  passives:
+  - statName: Health
+    passiveType: 0
+    modifyValue: 10
+    modifyChance: 100
+  upgradeLevel: []

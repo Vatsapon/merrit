@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 279bbab51a3a49e41997862216aa9975, type: 3}
+  m_Name: Spiritual's Resonance
+  m_EditorClassIdentifier: 
+  abilityType: 4
+  image: {fileID: 21300000, guid: 02445a9ecd7bdb74da2452dfaccb2cc0, type: 3}
+  abilityDescription: Charges up an attack until you explode and deal area damage
+    then transform back to Physical form.
+  unlocked: 0
+  abilityLevel:
+  - statLevel: 0
+    statDescription: Base Ranges, Damages, and Charge Times.
+    abilityStatList: []
+    price: 0
+    purchased: 1
+  - statLevel: 1
+    statDescription: Increase Ranges by 10%, Damages by 25%.
+    abilityStatList:
+    - modifyType: 1
+      modifyValue: 10
+    - modifyType: 0
+      modifyValue: 25
+    - modifyType: 3
+      modifyValue: 0
+    price: 0
+    purchased: 0
+  - statLevel: 2
+    statDescription: Increase Ranges by 25%, Damages by 55%, and decrease Charge
+      Times by 0.5 second.
+    abilityStatList:
+    - modifyType: 1
+      modifyValue: 15
+    - modifyType: 0
+      modifyValue: 30
+    - modifyType: 3
+      modifyValue: -0.5
+    price: 0
+    purchased: 0
+  - statLevel: 3
+    statDescription: Damage every enemies in the sight and the damage depends on
+      distance from the player.
+    abilityStatList:
+    - modifyType: 1
+      modifyValue: 20
+    price: 0
+    purchased: 0

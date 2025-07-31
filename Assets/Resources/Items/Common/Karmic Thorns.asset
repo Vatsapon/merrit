@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd078f7062b1c3f4c83da98ccd20f827, type: 3}
+  m_Name: Karmic Thorns
+  m_EditorClassIdentifier: 
+  itemName: Karmic Throrns
+  itemRarity: 0
+  rarityColor: {r: 0.4575472, g: 1, b: 0.46681994, a: 1}
+  itemDescription: Reflect 15% of total damages to the dealer.
+  image: {fileID: 21300000, guid: 2b73f6b0a366cf34bae086ea2291cbc3, type: 3}
+  itemPrice: 0
+  passives:
+  - statName: Damage
+    passiveType: 6
+    modifyValue: 15
+    modifyChance: 100
+  upgradeLevel: []

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd078f7062b1c3f4c83da98ccd20f827, type: 3}
+  m_Name: Unbounded Silk
+  m_EditorClassIdentifier: 
+  itemName: Unbounded Silk
+  itemRarity: 2
+  rarityColor: {r: 0.6864768, g: 0.4481132, b: 1, a: 1}
+  itemDescription: Immunty to all Slow effect.
+  image: {fileID: 21300000, guid: 51e497d257c87ff42a8d8ae5db8f0202, type: 3}
+  itemPrice: 0
+  passives:
+  - statName: Slow Immune
+    passiveType: 15
+    modifyValue: 0
+    modifyChance: 100
+  upgradeLevel: []

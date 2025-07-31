@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49cbd9c3a914b8b429c9c75d4e14228c, type: 3}
+  m_Name: Health
+  m_EditorClassIdentifier: 
+  statName: Health
+  statDescription: Player's health point.
+  statImage: {fileID: 21300000, guid: b808151a97237324cb36ad827bf2b084, type: 3}
+  upgradeLevel:
+  - statLevel: 1
+    statModify: 25
+    price: 0
+    unlocked: 0
+    purchased: 0
+  - statLevel: 2
+    statModify: 25
+    price: 0
+    unlocked: 0
+    purchased: 0
+  - statLevel: 3
+    statModify: 30
+    price: 0
+    unlocked: 0
+    purchased: 0
+  - statLevel: 4
+    statModify: 30
+    price: 0
+    unlocked: 0
+    purchased: 0
+  - statLevel: 5
+    statModify: 50
+    price: 0
+    unlocked: 0
+    purchased: 0

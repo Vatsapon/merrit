@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 279bbab51a3a49e41997862216aa9975, type: 3}
+  m_Name: Spiritual's Combo
+  m_EditorClassIdentifier: 
+  abilityType: 3
+  image: {fileID: 21300000, guid: 44647154f51873c4b9962e66871d706d, type: 3}
+  abilityDescription: Can perform combo attack on Spiritual form.
+  unlocked: 0
+  abilityLevel:
+  - statLevel: 0
+    statDescription: Additional abilities of each attack sequence.
+    abilityStatList: []
+    price: 0
+    purchased: 1
+  - statLevel: 1
+    statDescription: +1 Additional projectiles is shooting backwards on the second
+      and third attack.
+    abilityStatList:
+    - modifyType: 2
+      modifyValue: 1
+    price: 0
+    purchased: 0
+  - statLevel: 2
+    statDescription: Second Attack leave a mark on the enemy, give an ability to
+      teleport to Marked enemy once switching back to Physical form.
+    abilityStatList:
+    - modifyType: 2
+      modifyValue: 2
+    price: 0
+    purchased: 0
+  - statLevel: 3
+    statDescription: Third attack projectile become penetration and deal damages
+      to all enemies its hit.
+    abilityStatList:
+    - modifyType: 2
+      modifyValue: 3
+    price: 0
+    purchased: 0
